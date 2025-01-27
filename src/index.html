@@ -10,9 +10,26 @@
     <!-- Navbar -->
     <nav class="relative container mx-auto p-6">
       <div class="flex items-center justify-between">
-        <div class="flex items-center gap-12">
-          <img src="./images/logo.svg" alt="logo" />
+        <!-- Logo -->
+        <div class="pt-2">
+          <img src="../img/logo.svg" alt="logo" />
         </div>
+
+        <!-- Menu Items -->
+        <div class="hidden md:flex space-x-6">
+          <a href="#" class="hover:text-dark-grayish-blue">Pricing</a>
+          <a href="#" class="hover:text-dark-grayish-blue">Product</a>
+          <a href="#" class="hover:text-dark-grayish-blue">About Us</a>
+          <a href="#" class="hover:text-dark-grayish-blue">Careers</a>
+          <a href="#" class="hover:text-dark-grayish-blue">Community</a>
+        </div>
+
+        <!-- Button -->
+        <a
+          href="#"
+          class="hidden md:block pb-3 px-6 pt-2 text-white bg-bright-red rounded-full baseline hover:bg-bright-red-light"
+          >Get Started</a
+        >
       </div>
     </nav>
   </body>
