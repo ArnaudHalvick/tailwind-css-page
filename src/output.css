@@ -847,6 +847,11 @@
       margin-bottom: calc(var(--spacing) * 16);
     }
   }
+  .last\:mb-0 {
+    &:last-child {
+      margin-bottom: calc(var(--spacing) * 0);
+    }
+  }
   .hover\:bg-bright-red-light {
     &:hover {
       @media (hover: hover) {
