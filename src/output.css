@@ -980,6 +980,11 @@
       justify-content: space-between;
     }
   }
+  .md\:justify-center {
+    @media (width >= 48rem) {
+      justify-content: center;
+    }
+  }
   .md\:justify-start {
     @media (width >= 48rem) {
       justify-content: flex-start;
